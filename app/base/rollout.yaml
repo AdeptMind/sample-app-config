@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: argoproj/rollouts-demo:blue
+        image: gcr.io/retail-364515/sample-app
         ports:
         - name: http
           containerPort: 8080
